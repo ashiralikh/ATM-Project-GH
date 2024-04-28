@@ -61,7 +61,7 @@ let pinAnswer = await inquirer.prompt (
                 {name:"$500" , value:500},
                 {name:"$1000" , value:1000},
                 {name:"$5000" , value:5000},
-                {name:"$1000" , value:1000},
+                {name:"$10000" , value:10000},
 
             ];
             let fastcashAmount = await inquirer.prompt([
